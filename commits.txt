@@ -1,0 +1,81 @@
+322cf36	jennynz	Tue Oct 4 18:40:33 2016	Plots for poster
+14ad48b	jennynz	Thu Sep 22 10:56:59 2016	Final commit
+6c337e6	jennynz	Wed Sep 21 19:26:46 2016	Mashing dem keys
+66ba76d	jennynz	Wed Sep 21 19:25:54 2016	Bashing around trying things. Can now extract distances from lips in data frames
+d7826f5	jennynz	Tue Sep 20 12:52:05 2016	Demographic plots of mean area functions
+0b26b51	jennynz	Tue Sep 20 12:50:08 2016	Mean area functions
+9b65bb2	jennynz	Tue Sep 20 11:13:25 2016	Fixed read story data now that there are more csvs starting with the same SXX format
+19c2196	jennynz	Tue Sep 20 09:38:29 2016	Story resonance and formant plots
+061f855	jennynz	Tue Sep 20 08:42:08 2016	Lots of r1/r2 plots
+c05e26c	jennynz	Tue Sep 20 07:46:21 2016	Unnormalised correlations
+bfebf51	jennynz	Tue Sep 20 02:19:53 2016	Modify interspeaker correlations for one region only to take functinos
+cffaca1	jennynz	Mon Sep 19 21:01:19 2016	PCA on AmE data
+be248e5	jennynz	Mon Sep 19 19:33:58 2016	Backup of project report
+91162f7	jennynz	Mon Sep 19 18:09:43 2016	Forgot to load emuR for bark scaling
+b42bb7e	jennynz	Mon Sep 19 17:59:52 2016	Fixed resonances bug and removed unnecessary PCA on resonances sections
+9c2ba2a	jennynz	Mon Sep 19 02:29:07 2016	Inter-speaker Correlations between resonances
+f085a3d	jennynz	Mon Sep 19 01:26:25 2016	Plot R1/R2 for NZE and AmE separately
+8e17740	jennynz	Sun Sep 18 23:59:58 2016	R1/R2 plots looking goooood!
+dbb173b	jennynz	Sun Sep 18 23:03:30 2016	Fixed bug in skipping nearby peaks
+bb2aacb	jennynz	Sun Sep 18 22:57:03 2016	Ignore indices which are too close in spectrum peaks
+67e24ee	jennynz	Sun Sep 18 20:26:41 2016	Frequency bins sussed
+3b6766e	jennynz	Sun Sep 18 20:10:48 2016	Fixed bug in reading NZE
+7303c68	jennynz	Sun Sep 18 19:04:40 2016	VT lengths function
+71bba91	jennynz	Sun Sep 18 18:23:42 2016	Reading Story data can now be interpolated to n values
+b0f106d	jennynz	Sun Sep 18 15:46:52 2016	Resonance functions from Catherinegit status
+94c9a77	jennynz	Sun Sep 18 15:22:36 2016	Updated pca_1Set_combined.R to be compatible with function version of readAreaFunctions, and turned off default smoothing
+edb1037	jennynz	Sun Sep 18 00:43:01 2016	Adding options for normalisation etc. to interspeaker correlations
+2990772	jennynz	Sat Sep 17 20:44:24 2016	Finally actually removing the area functions so git doesn't take so long each time
+713abed	jennynz	Sat Sep 17 15:29:46 2016	AmE data correlations and variances
+c84c1f0	jennynz	Thu Sep 15 18:53:35 2016	Removing All VT data because it's too big
+50f1bbf	jennynz	Thu Sep 15 18:44:40 2016	Adding all the distance_area text files
+eaf9beb	jennynz	Thu Sep 15 18:19:52 2016	Trying to modify gitignore to include distance_area files
+a72b603	jennynz	Thu Sep 15 13:28:17 2016	Start combining AmE and NZE data sets for interspeaker correlations
+23de849	jennynz	Wed Sep 14 17:59:01 2016	AmE inter-speaker correlations done
+dc4e8c7	jennynz	Wed Sep 14 17:06:39 2016	Reading in Story data complete
+274287d	jennynz	Wed Sep 14 16:31:55 2016	Story data scraped
+7ac2271	jennynz	Tue Sep 13 11:43:33 2016	Quantifying variability variance and correlations
+d726185	jennynz	Mon Sep 12 20:16:29 2016	Reading 2 repetitions of area functions for VT04
+5ba4482	jennynz	Mon Sep 12 17:12:20 2016	Bar plots for indiviual variance analysis
+3af324d	jennynz	Mon Sep 12 15:49:48 2016	Individual variance analysis
+309aec5	jennynz	Thu Sep 8 21:46:21 2016	Update project log
+a16c676	jennynz	Thu Sep 8 21:45:15 2016	More descriptive combined PCA plots
+feb8124	jennynz	Thu Sep 8 20:50:47 2016	Nicer plot of comparing interpolated area functions
+0b08fa4	jennynz	Wed Sep 7 18:34:42 2016	Analyse correlations between cavities separately
+168d18a	jennynz	Wed Sep 7 17:34:36 2016	plotAreaFunctions.R optimised with loops, eliminated repetition
+747b7e7	jennynz	Wed Sep 7 16:42:04 2016	Inter-speaker correlations for just pharyngeal region
+f51ce38	jennynz	Tue Sep 6 20:30:05 2016	Update project log
+3983ad6	jennynz	Tue Sep 6 20:29:33 2016	Try rotating VT02 australian data to fit centroids of NZE
+08c7d37	jennynz	Tue Sep 6 19:25:50 2016	Use eplot bark scaling to achieve nice vowel plots
+d8ae951	jennynz	Tue Sep 6 18:28:18 2016	Tidy up csv files
+dce1bb0	jennynz	Tue Sep 6 17:20:12 2016	Add project log
+429eb95	jennynz	Tue Sep 6 11:53:57 2016	Exclude VT02 to see effect on variance
+aeba784	jennynz	Wed Aug 31 16:54:53 2016	VT02 Comparison completed with errors in plotting
+6b3dfb2	jennynz	Wed Aug 31 16:12:12 2016	VT02 comparison plotted
+d33d6f7	jennynz	Wed Aug 31 12:34:02 2016	Make a start on script for VT02 comparison
+109a8a0	jennynz	Tue Aug 30 13:16:43 2016	Complete intraspeaker correlations with variable number of PCs
+5233dda	jennynz	Tue Aug 30 12:02:02 2016	Merge branch 'master' of github.com:jennynz/VTshapes
+d2296bd	jennynz	Tue Aug 30 12:01:33 2016	Fix normalisation in interspeaker correlations
+a5c28f0	Jenny Sahng	Tue Aug 30 11:28:25 2016	Create readme
+1b68ead	jennynz	Mon Aug 29 21:55:49 2016	Grep to pull out correct sets from allSpeakers dataframe
+ba26cf8	jennynz	Mon Aug 29 21:27:39 2016	Read in 2 sets for each vocal tract
+66c6dfb	jennynz	Mon Aug 29 18:10:25 2016	Starting intraspeaker correlations
+a523e9c	jennynz	Mon Aug 29 16:14:07 2016	Fixed bug in writing tables for correlations script
+8bbae49	jennynz	Mon Aug 29 14:48:21 2016	Correlation results output to csv
+7dfec5e	jennynz	Fri Aug 26 16:49:38 2016	Interspeaker correlations written
+4d688dc	jennynz	Tue Aug 23 12:10:18 2016	Plots fixes and correlation started
+0809b1b	jennynz	Mon Aug 22 21:14:50 2016	Add VT01 hood.txt back into analysis
+7f96ec6	jennynz	Mon Aug 22 20:18:33 2016	Change filenames to be more descriptive
+23082db	jennynz	Mon Aug 15 19:48:20 2016	Add IPA symbols as labels for vowels
+0f6ea7e	jennynz	Mon Aug 15 19:23:42 2016	Enhance eplot with colours and data points
+0a50fa4	jennynz	Mon Aug 15 18:17:33 2016	Reading in 5 VTs with 2 sets
+a4f172f	jennynz	Mon Aug 15 16:14:38 2016	erge branch 'master' of github.com:jennynz/VTshapes
+5106fcb	jennynz	Mon Aug 15 16:14:15 2016	Fix labels warning in eplots, remove adding max indexes
+72b1470	jennynz	Mon Aug 15 16:13:11 2016	Run analysis for 5 VTs
+0e29778	Jenny Sahng	Tue Aug 9 16:49:50 2016	Add plotting commands for analysing formant data
+32f7376	jennynz	Tue Aug 9 12:25:13 2016	Add titles and labels to plot
+d7c5ff7	jennynz	Mon Aug 8 12:39:36 2016	Fix issues with VT01 hood.txt inclusion
+b8e5ff4	jennynz	Sun Aug 7 17:13:28 2016	Nearly finished PCA of 12 speakers
+111c1cb	jennynz	Sun Aug 7 16:33:01 2016	Plots of PCs working
+9508c86	jennynz	Sun Aug 7 15:15:49 2016	Add new files
+fb14d9e	Jenny Sahng	Sat Aug 6 21:24:41 2016	Initial commit

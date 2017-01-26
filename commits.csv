@@ -1,0 +1,81 @@
+2016-10-04 18:40:33 +1300,Plots for poster
+2016-09-22 10:56:59 +1200,Final commit
+2016-09-21 19:26:46 +1200,Mashing dem keys
+2016-09-21 19:25:54 +1200,Bashing around trying things. Can now extract distances from lips in data frames
+2016-09-20 12:52:05 +1200,Demographic plots of mean area functions
+2016-09-20 12:50:08 +1200,Mean area functions
+2016-09-20 11:13:25 +1200,Fixed read story data now that there are more csvs starting with the same SXX format
+2016-09-20 09:38:29 +1200,Story resonance and formant plots
+2016-09-20 08:42:08 +1200,Lots of r1/r2 plots
+2016-09-20 07:46:21 +1200,Unnormalised correlations
+2016-09-20 02:19:53 +1200,Modify interspeaker correlations for one region only to take functinos
+2016-09-19 21:01:19 +1200,PCA on AmE data
+2016-09-19 19:33:58 +1200,Backup of project report
+2016-09-19 18:09:43 +1200,Forgot to load emuR for bark scaling
+2016-09-19 17:59:52 +1200,Fixed resonances bug and removed unnecessary PCA on resonances sections
+2016-09-19 02:29:07 +1200,Inter-speaker Correlations between resonances
+2016-09-19 01:26:25 +1200,Plot R1/R2 for NZE and AmE separately
+2016-09-18 23:59:58 +1200,R1/R2 plots looking goooood!
+2016-09-18 23:03:30 +1200,Fixed bug in skipping nearby peaks
+2016-09-18 22:57:03 +1200,Ignore indices which are too close in spectrum peaks
+2016-09-18 20:26:41 +1200,Frequency bins sussed
+2016-09-18 20:10:48 +1200,Fixed bug in reading NZE
+2016-09-18 19:04:40 +1200,VT lengths function
+2016-09-18 18:23:42 +1200,Reading Story data can now be interpolated to n values
+2016-09-18 15:46:52 +1200,Resonance functions from Catherinegit status
+2016-09-18 15:22:36 +1200,"Updated pca_1Set_combined.R to be compatible with function version of readAreaFunctions, and turned off default smoothing"
+2016-09-18 00:43:01 +1200,Adding options for normalisation etc. to interspeaker correlations
+2016-09-17 20:44:24 +1200,Finally actually removing the area functions so git doesn't take so long each time
+2016-09-17 15:29:46 +1200,AmE data correlations and variances
+2016-09-15 18:53:35 +1200,Removing All VT data because it's too big
+2016-09-15 18:44:40 +1200,Adding all the distance_area text files
+2016-09-15 18:19:52 +1200,Trying to modify gitignore to include distance_area files
+2016-09-15 13:28:17 +1200,Start combining AmE and NZE data sets for interspeaker correlations
+2016-09-14 17:59:01 +1200,AmE inter-speaker correlations done
+2016-09-14 17:06:39 +1200,Reading in Story data complete
+2016-09-14 16:31:55 +1200,Story data scraped
+2016-09-13 11:43:33 +1200,Quantifying variability variance and correlations
+2016-09-12 20:16:29 +1200,Reading 2 repetitions of area functions for VT04
+2016-09-12 17:12:20 +1200,Bar plots for indiviual variance analysis
+2016-09-12 15:49:48 +1200,Individual variance analysis
+2016-09-08 21:46:21 +1200,Update project log
+2016-09-08 21:45:15 +1200,More descriptive combined PCA plots
+2016-09-08 20:50:47 +1200,Nicer plot of comparing interpolated area functions
+2016-09-07 18:34:42 +1200,Analyse correlations between cavities separately
+2016-09-07 17:34:36 +1200,"plotAreaFunctions.R optimised with loops, eliminated repetition"
+2016-09-07 16:42:04 +1200,Inter-speaker correlations for just pharyngeal region
+2016-09-06 20:30:05 +1200,Update project log
+2016-09-06 20:29:33 +1200,Try rotating VT02 australian data to fit centroids of NZE
+2016-09-06 19:25:50 +1200,Use eplot bark scaling to achieve nice vowel plots
+2016-09-06 18:28:18 +1200,Tidy up csv files
+2016-09-06 17:20:12 +1200,Add project log
+2016-09-06 11:53:57 +1200,Exclude VT02 to see effect on variance
+2016-08-31 16:54:53 +1200,VT02 Comparison completed with errors in plotting
+2016-08-31 16:12:12 +1200,VT02 comparison plotted
+2016-08-31 12:34:02 +1200,Make a start on script for VT02 comparison
+2016-08-30 13:16:43 +1200,Complete intraspeaker correlations with variable number of PCs
+2016-08-30 12:02:02 +1200,Merge branch 'master' of github.com:jennynz/VTshapes
+2016-08-30 12:01:33 +1200,Fix normalisation in interspeaker correlations
+2016-08-30 11:28:25 +1200,Create readme
+2016-08-29 21:55:49 +1200,Grep to pull out correct sets from allSpeakers dataframe
+2016-08-29 21:27:39 +1200,Read in 2 sets for each vocal tract
+2016-08-29 18:10:25 +1200,Starting intraspeaker correlations
+2016-08-29 16:14:07 +1200,Fixed bug in writing tables for correlations script
+2016-08-29 14:48:21 +1200,Correlation results output to csv
+2016-08-26 16:49:38 +1200,Interspeaker correlations written
+2016-08-23 12:10:18 +1200,Plots fixes and correlation started
+2016-08-22 21:14:50 +1200,Add VT01 hood.txt back into analysis
+2016-08-22 20:18:33 +1200,Change filenames to be more descriptive
+2016-08-15 19:48:20 +1200,Add IPA symbols as labels for vowels
+2016-08-15 19:23:42 +1200,Enhance eplot with colours and data points
+2016-08-15 18:17:33 +1200,Reading in 5 VTs with 2 sets
+2016-08-15 16:14:38 +1200,erge branch 'master' of github.com:jennynz/VTshapes
+2016-08-15 16:14:15 +1200,"Fix labels warning in eplots, remove adding max indexes"
+2016-08-15 16:13:11 +1200,Run analysis for 5 VTs
+2016-08-09 16:49:50 +1200,Add plotting commands for analysing formant data
+2016-08-09 12:25:13 +1200,Add titles and labels to plot
+2016-08-08 12:39:36 +1200,Fix issues with VT01 hood.txt inclusion
+2016-08-07 17:13:28 +1200,Nearly finished PCA of 12 speakers
+2016-08-07 16:33:01 +1200,Plots of PCs working
+2016-08-07 15:15:49 +1200,Add new files
+2016-08-06 21:24:41 +1200,Initial commit

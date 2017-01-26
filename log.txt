@@ -1,0 +1,487 @@
+commit 322cf36093bad0577666c0b5cd46911e7ec01d87
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Oct 4 18:40:33 2016 +1300
+
+    Plots for poster
+
+commit 14ad48be76e5987ef613eaabdbde2ba2ec710397
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 22 10:56:59 2016 +1200
+
+    Final commit
+
+commit 6c337e64a48f76c9952ea166585c9fe425206590
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 21 19:26:46 2016 +1200
+
+    Mashing dem keys
+
+commit 66ba76d708a871dad56741df8a1e730919892e47
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 21 19:25:54 2016 +1200
+
+    Bashing around trying things. Can now extract distances from lips in data frames
+
+commit d7826f524dcff2583f1921cfa940d6c3203d3655
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 20 12:52:05 2016 +1200
+
+    Demographic plots of mean area functions
+
+commit 0b26b51780b3197d678d5a08510f078eaec1c72d
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 20 12:50:08 2016 +1200
+
+    Mean area functions
+
+commit 9b65bb28f61817ef91a3bd3be03ef3eff7b8773c
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 20 11:13:25 2016 +1200
+
+    Fixed read story data now that there are more csvs starting with the same SXX format
+
+commit 19c21961c36ea1e30a50dd7ec6499bed8bcb1d92
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 20 09:38:29 2016 +1200
+
+    Story resonance and formant plots
+
+commit 061f8559cf1bf6c556624734282dc281a6c2734a
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 20 08:42:08 2016 +1200
+
+    Lots of r1/r2 plots
+
+commit c05e26c26536e11464cd52a7a2cdc79ac99bee0c
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 20 07:46:21 2016 +1200
+
+    Unnormalised correlations
+
+commit bfebf511fa3bf7b2b9047080401be7621ee03b74
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 20 02:19:53 2016 +1200
+
+    Modify interspeaker correlations for one region only to take functinos
+
+commit cffaca1133775c131ca907000055ce0931cc532c
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 19 21:01:19 2016 +1200
+
+    PCA on AmE data
+
+commit be248e58ece82041d18d39faf147117a4c864fad
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 19 19:33:58 2016 +1200
+
+    Backup of project report
+
+commit 91162f787304d9928914d3fd7fdb8d9a1cb155dd
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 19 18:09:43 2016 +1200
+
+    Forgot to load emuR for bark scaling
+
+commit b42bb7e744f253474367d75b8976326a2f8e2399
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 19 17:59:52 2016 +1200
+
+    Fixed resonances bug and removed unnecessary PCA on resonances sections
+
+commit 9c2ba2ae13fbda2f889b4b45798c9f94c61c9538
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 19 02:29:07 2016 +1200
+
+    Inter-speaker Correlations between resonances
+
+commit f085a3d36b62732bab91ef77bc646f1758e1a974
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 19 01:26:25 2016 +1200
+
+    Plot R1/R2 for NZE and AmE separately
+
+commit 8e1774007e3c57507bd256e20c695e68f52c606a
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 23:59:58 2016 +1200
+
+    R1/R2 plots looking goooood!
+
+commit dbb173b9a19eec2573ca7920c4011080eff17a3a
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 23:03:30 2016 +1200
+
+    Fixed bug in skipping nearby peaks
+
+commit bb2aacbf253d4002fd006a46aa1dbd97c1f0d0bb
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 22:57:03 2016 +1200
+
+    Ignore indices which are too close in spectrum peaks
+
+commit 67e24ee1ae05474e5b12159a69a67263e5a6c229
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 20:26:41 2016 +1200
+
+    Frequency bins sussed
+
+commit 3b6766e484e7953f97440c0d118509659900b5dc
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 20:10:48 2016 +1200
+
+    Fixed bug in reading NZE
+
+commit 7303c680b81aeda940877a7441ef2fefab4230be
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 19:04:40 2016 +1200
+
+    VT lengths function
+
+commit 71bba914acca5df07fc9dc819c4a6788fb62991f
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 18:23:42 2016 +1200
+
+    Reading Story data can now be interpolated to n values
+
+commit b0f106dce49f27c3cc69303f308eb665dff2b678
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 15:46:52 2016 +1200
+
+    Resonance functions from Catherinegit status
+
+commit 94c9a77521a1dbcb826b8761204b7ffabf37e770
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 15:22:36 2016 +1200
+
+    Updated pca_1Set_combined.R to be compatible with function version of readAreaFunctions, and turned off default smoothing
+
+commit edb10376576385c904e571c8662c8abc392476e8
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Sep 18 00:43:01 2016 +1200
+
+    Adding options for normalisation etc. to interspeaker correlations
+
+commit 2990772f9d2d159a707e12e00c0d72ef2f35f6f8
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sat Sep 17 20:44:24 2016 +1200
+
+    Finally actually removing the area functions so git doesn't take so long each time
+
+commit 713abedf67688b569bdae9a167c640c355651ef6
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sat Sep 17 15:29:46 2016 +1200
+
+    AmE data correlations and variances
+
+commit c84c1f05cc7b0afcd14771ae3d8f4913a16c0611
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 15 18:53:35 2016 +1200
+
+    Removing All VT data because it's too big
+
+commit 50f1bbfb25a214d8d12ef543abd2e737f1ddd8c1
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 15 18:44:40 2016 +1200
+
+    Adding all the distance_area text files
+
+commit eaf9bebde5c69adc663f060f5a3f24574f641b07
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 15 18:19:52 2016 +1200
+
+    Trying to modify gitignore to include distance_area files
+
+commit a72b60307e4ca85b198f09fda8d45c3b63ebd8bb
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 15 13:28:17 2016 +1200
+
+    Start combining AmE and NZE data sets for interspeaker correlations
+
+commit 23de8495654e86fcc1d9ee4928e8b5f8ff5574bf
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 14 17:59:01 2016 +1200
+
+    AmE inter-speaker correlations done
+
+commit dc4e8c79bbb7fdf49cb0ce24fa7c607c97a1dd69
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 14 17:06:39 2016 +1200
+
+    Reading in Story data complete
+
+commit 274287dad67aaa2dfbb07ac40e20c16902b32db0
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 14 16:31:55 2016 +1200
+
+    Story data scraped
+
+commit 7ac22718fb1816d1bd1222e36c2ef5ff70e7a320
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 13 11:43:33 2016 +1200
+
+    Quantifying variability variance and correlations
+
+commit d7261854332b5ec23f97f2142322437ca9c84b87
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 12 20:16:29 2016 +1200
+
+    Reading 2 repetitions of area functions for VT04
+
+commit 5ba4482e8b507118d94b64f3607d7e7bc0578e8d
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 12 17:12:20 2016 +1200
+
+    Bar plots for indiviual variance analysis
+
+commit 3af324d73e4a3ba3cbf84885ecc6c659978abc85
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Sep 12 15:49:48 2016 +1200
+
+    Individual variance analysis
+
+commit 309aec53a0324716e94831e9bed5eccdd7a67247
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 8 21:46:21 2016 +1200
+
+    Update project log
+
+commit a16c676a35f565505113b7896c0e7f24e28cd760
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 8 21:45:15 2016 +1200
+
+    More descriptive combined PCA plots
+
+commit feb81247440c68e1f88f8198a8885fb9e4113be5
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Thu Sep 8 20:50:47 2016 +1200
+
+    Nicer plot of comparing interpolated area functions
+
+commit 0b08fa4d2a0defe6f78dafaf7df07041bc6ee70c
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 7 18:34:42 2016 +1200
+
+    Analyse correlations between cavities separately
+
+commit 168d18a43632d53c2f66e21184a015156c313436
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 7 17:34:36 2016 +1200
+
+    plotAreaFunctions.R optimised with loops, eliminated repetition
+
+commit 747b7e7edc3ef6f68486c5b63d3f92253ee25621
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Sep 7 16:42:04 2016 +1200
+
+    Inter-speaker correlations for just pharyngeal region
+
+commit f51ce38e446cabc53cb90502a20014d8329e589e
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 6 20:30:05 2016 +1200
+
+    Update project log
+
+commit 3983ad60b8e28afa666f618fc51c8089321375e2
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 6 20:29:33 2016 +1200
+
+    Try rotating VT02 australian data to fit centroids of NZE
+
+commit 08c7d37afb8d1b955f01a26b877ec415eebd99c1
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 6 19:25:50 2016 +1200
+
+    Use eplot bark scaling to achieve nice vowel plots
+
+commit d8ae951e41858b2ca609e7ae2a615641dd31b52f
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 6 18:28:18 2016 +1200
+
+    Tidy up csv files
+
+commit dce1bb05bd873b9316e5ad53296dbc215a13d44f
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 6 17:20:12 2016 +1200
+
+    Add project log
+
+commit 429eb95bb7ea5146ce4cb917fe9b0302d214e5ea
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Sep 6 11:53:57 2016 +1200
+
+    Exclude VT02 to see effect on variance
+
+commit aeba784111c788971aedc5092b5eddbe8add63cc
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Aug 31 16:54:53 2016 +1200
+
+    VT02 Comparison completed with errors in plotting
+
+commit 6b3dfb2e42adfa4165e3ab6d1f423cab63a4f6d1
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Aug 31 16:12:12 2016 +1200
+
+    VT02 comparison plotted
+
+commit d33d6f7123e7744417cc74978424b2dac8f37fe8
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Wed Aug 31 12:34:02 2016 +1200
+
+    Make a start on script for VT02 comparison
+
+commit 109a8a056bbc1211cc7c1ca6f74ac370d5c59225
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Aug 30 13:16:43 2016 +1200
+
+    Complete intraspeaker correlations with variable number of PCs
+
+commit 5233ddad173dfb39502b36b7ac07f39604a502d9
+Merge: d2296bd a5c28f0
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Aug 30 12:02:02 2016 +1200
+
+    Merge branch 'master' of github.com:jennynz/VTshapes
+
+commit d2296bdb175a828ff5ef4fe2dcd951994e30fab1
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Aug 30 12:01:33 2016 +1200
+
+    Fix normalisation in interspeaker correlations
+
+commit a5c28f02ad9829bf99c1257573305a50ffe2edc8
+Author: Jenny Sahng <jenny.s@hotmail.co.nz>
+Date:   Tue Aug 30 11:28:25 2016 +1200
+
+    Create readme
+
+commit 1b68ead5e56d6dd717eded03117662639c746a8c
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 29 21:55:49 2016 +1200
+
+    Grep to pull out correct sets from allSpeakers dataframe
+
+commit ba26cf8647a9bcf5c01ba16bfae15557f681714c
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 29 21:27:39 2016 +1200
+
+    Read in 2 sets for each vocal tract
+
+commit 66c6dfb5bb5a9bc7ae69c28b8f7e01a88fa7f6a2
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 29 18:10:25 2016 +1200
+
+    Starting intraspeaker correlations
+
+commit a523e9c8a2f5f48ad67c74445b162af466679db5
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 29 16:14:07 2016 +1200
+
+    Fixed bug in writing tables for correlations script
+
+commit 8bbae494acea6b92afc9243425be7719c9be48f7
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 29 14:48:21 2016 +1200
+
+    Correlation results output to csv
+
+commit 7dfec5ebf2a2446a42e69acb3ffd0cc61433863b
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Fri Aug 26 16:49:38 2016 +1200
+
+    Interspeaker correlations written
+
+commit 4d688dcff5c570e248a2804868675fb388fdf9cb
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Aug 23 12:10:18 2016 +1200
+
+    Plots fixes and correlation started
+
+commit 0809b1b313193dcb472363a0ce411e73b7fedd6d
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 22 21:14:50 2016 +1200
+
+    Add VT01 hood.txt back into analysis
+
+commit 7f96ec6a7e2e6f42de92f440da91735633cc55b1
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 22 20:18:33 2016 +1200
+
+    Change filenames to be more descriptive
+
+commit 23082db6f2b4994e4696ce69bd68af76c55b986e
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 15 19:48:20 2016 +1200
+
+    Add IPA symbols as labels for vowels
+
+commit 0f6ea7ecadd33f101eee9a396e70808b3040b17d
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 15 19:23:42 2016 +1200
+
+    Enhance eplot with colours and data points
+
+commit 0a50fa4e41866715c0dd09903b1c89699f71ad75
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 15 18:17:33 2016 +1200
+
+    Reading in 5 VTs with 2 sets
+
+commit a4f172f2c36ce54fc305ce6055822cb703d60bf4
+Merge: 5106fcb 0e29778
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 15 16:14:38 2016 +1200
+
+    erge branch 'master' of github.com:jennynz/VTshapes
+
+commit 5106fcbdf22e886d9726ba2e6110272377155565
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 15 16:14:15 2016 +1200
+
+    Fix labels warning in eplots, remove adding max indexes
+
+commit 72b1470d6bda0e1c1c13da761bd40835e334b628
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 15 16:13:11 2016 +1200
+
+    Run analysis for 5 VTs
+
+commit 0e297784de1c38756589ba75e1d2e046c096a217
+Author: Jenny Sahng <jenny.s@hotmail.co.nz>
+Date:   Tue Aug 9 16:49:50 2016 +1200
+
+    Add plotting commands for analysing formant data
+
+commit 32f73768cf777b7005178c2252ac2c8ac3b01c39
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Tue Aug 9 12:25:13 2016 +1200
+
+    Add titles and labels to plot
+
+commit d7c5ff71e82bb2258f44ff301959566eb38d7354
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Mon Aug 8 12:39:36 2016 +1200
+
+    Fix issues with VT01 hood.txt inclusion
+
+commit b8e5ff4789b4c97a0402d0795517bfddc53a1bf1
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Aug 7 17:13:28 2016 +1200
+
+    Nearly finished PCA of 12 speakers
+
+commit 111c1cb9ae2c59b6376b1cdd3c3cea3a99537463
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Aug 7 16:33:01 2016 +1200
+
+    Plots of PCs working
+
+commit 9508c86800707650687203a9f97dc7234f7fec73
+Author: jennynz <jenny.s@hotmail.co.nz>
+Date:   Sun Aug 7 15:15:49 2016 +1200
+
+    Add new files
+
+commit fb14d9ec98e3df66d0714e7a1e838533bc0b7f80
+Author: Jenny Sahng <jsah166@UoA.auckland.ac.nz>
+Date:   Sat Aug 6 21:24:41 2016 +1200
+
+    Initial commit

@@ -1,0 +1,81 @@
+Plots for poster
+Final commit
+Mashing dem keys
+Bashing around trying things. Can now extract distances from lips in data frames
+Demographic plots of mean area functions
+Mean area functions
+Fixed read story data now that there are more csvs starting with the same SXX format
+Story resonance and formant plots
+Lots of r1/r2 plots
+Unnormalised correlations
+Modify interspeaker correlations for one region only to take functinos
+PCA on AmE data
+Backup of project report
+Forgot to load emuR for bark scaling
+Fixed resonances bug and removed unnecessary PCA on resonances sections
+Inter-speaker Correlations between resonances
+Plot R1/R2 for NZE and AmE separately
+R1/R2 plots looking goooood!
+Fixed bug in skipping nearby peaks
+Ignore indices which are too close in spectrum peaks
+Frequency bins sussed
+Fixed bug in reading NZE
+VT lengths function
+Reading Story data can now be interpolated to n values
+Resonance functions from Catherinegit status
+Updated pca_1Set_combined.R to be compatible with function version of readAreaFunctions, and turned off default smoothing
+Adding options for normalisation etc. to interspeaker correlations
+Finally actually removing the area functions so git doesn't take so long each time
+AmE data correlations and variances
+Removing All VT data because it's too big
+Adding all the distance_area text files
+Trying to modify gitignore to include distance_area files
+Start combining AmE and NZE data sets for interspeaker correlations
+AmE inter-speaker correlations done
+Reading in Story data complete
+Story data scraped
+Quantifying variability variance and correlations
+Reading 2 repetitions of area functions for VT04
+Bar plots for indiviual variance analysis
+Individual variance analysis
+Update project log
+More descriptive combined PCA plots
+Nicer plot of comparing interpolated area functions
+Analyse correlations between cavities separately
+plotAreaFunctions.R optimised with loops, eliminated repetition
+Inter-speaker correlations for just pharyngeal region
+Update project log
+Try rotating VT02 australian data to fit centroids of NZE
+Use eplot bark scaling to achieve nice vowel plots
+Tidy up csv files
+Add project log
+Exclude VT02 to see effect on variance
+VT02 Comparison completed with errors in plotting
+VT02 comparison plotted
+Make a start on script for VT02 comparison
+Complete intraspeaker correlations with variable number of PCs
+Merge branch 'master' of github.com:jennynz/VTshapes
+Fix normalisation in interspeaker correlations
+Create readme
+Grep to pull out correct sets from allSpeakers dataframe
+Read in 2 sets for each vocal tract
+Starting intraspeaker correlations
+Fixed bug in writing tables for correlations script
+Correlation results output to csv
+Interspeaker correlations written
+Plots fixes and correlation started
+Add VT01 hood.txt back into analysis
+Change filenames to be more descriptive
+Add IPA symbols as labels for vowels
+Enhance eplot with colours and data points
+Reading in 5 VTs with 2 sets
+erge branch 'master' of github.com:jennynz/VTshapes
+Fix labels warning in eplots, remove adding max indexes
+Run analysis for 5 VTs
+Add plotting commands for analysing formant data
+Add titles and labels to plot
+Fix issues with VT01 hood.txt inclusion
+Nearly finished PCA of 12 speakers
+Plots of PCs working
+Add new files
+Initial commit
