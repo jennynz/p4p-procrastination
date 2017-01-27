@@ -103,7 +103,7 @@ legend("bottomleft",
        cex = 1.2, 
        text.col = cols, 
        horiz = F,
-       inset = c(0.02, 0.5))
+       inset = c(0.02, 0.2))
 
 # Title
 title("Instances of certain words in my project log\nleading up to the deadline")
@@ -128,7 +128,7 @@ legend("bottomleft",
        cex = 1.2, 
        text.col = cols, 
        horiz = F,
-       inset = c(0.02, 0.1))
+       inset = c(0.02, 0.15))
 
 # Title
 title("Cumulative count of certain words in my project log\nleading up to the deadline")
