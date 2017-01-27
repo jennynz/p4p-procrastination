@@ -20,10 +20,13 @@ good.words <- c("yay", "it worked", "hmm")
 words <- c(good.words, bad.words)
 num.words <- length(bad.words) + length(good.words)
 
-tally.df <- data.frame(matrix(ncol = num.words + 2, nrow = num.days, data = 0))
+wordfreq.df <- data.frame(matrix(ncol = num.words, nrow = num.days, data = 0))
+rownames(wordfreq.df) <- days
+colnames(wordfreq.df) <- c(bad.words, good.words)
 
-rownames(tally.df) <- days
-colnames(tally.df) <- c(bad.words, good.words, "chars", "chars_cumu")
+charcount.df <- data.frame(matrix(ncol = 2, nrow = num.days, data = 0))
+rownames(charcount.df) <- days
+colnames(charcount.df) <- c("chars", "chars_cumu")
 
 # Initialise Characters per day, and characters cumulative
 chars <- 0
@@ -44,8 +47,8 @@ for (i in 1:length(linn)) {
     
     if (first.day == F) {
       # Store all the previous characters from the last day into df
-      tally.df[current.date, "chars"] <- chars
-      tally.df[current.date, "chars_cumu"] <- chars_cumu
+      charcount.df[current.date, "chars"] <- chars
+      charcount.df[current.date, "chars_cumu"] <- chars_cumu
       
       # Also reset characters counter for next day
       chars <- 0
@@ -68,12 +71,52 @@ for (i in 1:length(linn)) {
   # If word is found, increase tally in data frame for that date by 1
   for (w in words) {
     if (grepl(w, this.line, ignore.case = T)) {
-      tally.df[current.date, w] <- tally.df[current.date, w] + 1
+      wordfreq.df[current.date, w] <- wordfreq.df[current.date, w] + 1
     }
   }
   
 }
 
-write.csv(tally.df, file = "word_frequency.csv")
+write.csv(wordfreq.df, file = "word_frequency.csv")
+write.csv(charcount.df, file = "char_count.csv")
 
 close(log.file)
+
+# WORD FREQUENCY GRAPH
+
+library("RColorBrewer")
+cols <- c(rev(brewer.pal(length(good.words), "Blues")), rev(brewer.pal(length(bad.words), "Reds")))
+max.freq <- max(wordfreq.df)
+plot(wordfreq.df[,words[1]]~days, type="l", bty="l", xlab="Date", ylab="Frequency",
+     col=cols[1] , lwd=3 , pch=17 , ylim=c(0,max.freq), yaxt="n")
+axis(2, at=0:max.freq, labels=0:max.freq, las=2)
+for (i in 2:length(words)) {
+  lines(wordfreq.df[,words[i]]~days, col=cols[i], lwd=3, pch=19)  
+}
+
+# Add a legend
+legend("bottomleft", 
+       legend = words, 
+       col = cols,
+       bty = "n", 
+       pt.cex = 2, 
+       cex = 1.2, 
+       text.col = cols, 
+       horiz = F,
+       inset = c(0.05, 0.4))
+
+# Title
+title("Instances of certain words in my project log\nleading up to the deadline")
+
+# NUM CHARACTERS GRAPH
+
+par(mfrow=c(2,1)) 
+
+plot(charcount.df$chars~days, type="l", bty="l", xlab="Date", ylab="Frequency",
+     col="palegreen2", lwd=2 , pch=17 , ylim=c(0,max(charcount.df$chars)), ann=F) #, yaxt="n"
+title("Number of characters written\nin project log each day")
+
+plot(charcount.df$chars_cumu~days, type="l", bty="l", xlab="Date", ylab="Frequency",
+     col="palegreen3", lwd=2 , pch=17 , ylim=c(0,max(charcount.df)), ann=F)
+title("Cumulative characters written in project log")
+#axis(2, at=0:max.chars, labels=0:max.chars, las=2)
