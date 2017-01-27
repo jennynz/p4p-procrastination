@@ -7,22 +7,22 @@
 rm(list=ls()) # clear workspace
 graphics.off() # close all graphics windows
 
-path <<- "/media/jenny/JENNY 021 265 8811/Coding/2. In Progress/P4P Infographic"
+path <<- "/home/jenny/Documents/P4P Infographic"
 setwd(path)
-log.file <- file(paste(path,"projectlog.txt",sep = "/"), open = 'r')
+log.file <-file(paste(path,"projectlog.txt",sep = "/"), open = 'r')
 
 days <- seq(as.Date("2016-04-12"), as.Date("2016-09-21"), by="days")
 num.days <- length(days)
 
 # For each of these words
-bad.words <- c("shit", "poo", "argh", "not sure") 
-good.words <- c("yay", "it worked", "hmm")	
+good.words <- c("yay", "it worked", "ah hah", "interesting", "improve", "better", "finally", "hmm")	
+bad.words <- c("error", "bug", "missing", "don't know", "not sure", "argh", "poo", "shit") 
 words <- c(good.words, bad.words)
-num.words <- length(bad.words) + length(good.words)
+num.words <- length(good.words)+ length(bad.words)
 
 wordfreq.df <- data.frame(matrix(ncol = num.words, nrow = num.days, data = 0))
 rownames(wordfreq.df) <- days
-colnames(wordfreq.df) <- c(bad.words, good.words)
+colnames(wordfreq.df) <- c(good.words, bad.words)
 
 charcount.df <- data.frame(matrix(ncol = 2, nrow = num.days, data = 0))
 rownames(charcount.df) <- days
@@ -103,10 +103,35 @@ legend("bottomleft",
        cex = 1.2, 
        text.col = cols, 
        horiz = F,
-       inset = c(0.05, 0.4))
+       inset = c(0.02, 0.5))
 
 # Title
 title("Instances of certain words in my project log\nleading up to the deadline")
+
+# WORD FREQUENCY CUMULATIVE
+
+wordfreq.cumu.df <- cumsum(wordfreq.df)
+max.freq <- max(wordfreq.cumu.df)
+plot(wordfreq.cumu.df[,words[1]]~days, type="l", bty="l", xlab="Date", ylab="Frequency",
+     col=cols[1] , lwd=2 , pch=17 , ylim=c(0,max.freq), yaxt="n")
+axis(2, at=0:max.freq, labels=0:max.freq, las=2)
+for (i in 2:length(words)) {
+  lines(wordfreq.cumu.df[,words[i]]~days, col=cols[i], lwd=2, pch=19)  
+}
+
+# Add a legend
+legend("bottomleft", 
+       legend = words, 
+       col = cols,
+       bty = "n", 
+       pt.cex = 2, 
+       cex = 1.2, 
+       text.col = cols, 
+       horiz = F,
+       inset = c(0.02, 0.1))
+
+# Title
+title("Cumulative count of certain words in my project log\nleading up to the deadline")
 
 # NUM CHARACTERS GRAPH
 
