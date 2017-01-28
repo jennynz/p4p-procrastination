@@ -7,7 +7,7 @@ I spent an afternoon one summer's day tinkering on R, trying to brush up on the 
 ## How much I wrote in my project log book over time
 
 <p align="center">
-<img width="80%" alt="The number of characters written into my research project log each day, from the start of my project up to the deadline." src="https://github.com/jennynz/p4p-procrastination/blob/master/plots/charcount_annotated.png"/>
+<img width="60%" alt="The number of characters written into my research project log each day, from the start of my project up to the deadline." src="https://github.com/jennynz/p4p-procrastination/blob/master/plots/charcount_annotated.png"/>
 </p>
 
 It appears that I wasn't too bad leaving things until the last minute, or not as bad as it felt, if the character count of my project log book is indeed an accurate scientific measure of the amount of work I actually did (which, you know, it isn't). Intriguingly, the cumulative character count does seem to show the beginnings of exponential growth. Perhaps if/when I do a PhD, I can test this theory over a longer time period and see if I'm truly a slave to [The Instant Gratification Monkey & Panic Monster](http://waitbutwhy.com/2013/10/why-procrastinators-procrastinate.html). That sounds like a fun experiment.
@@ -27,10 +27,10 @@ I also found that choosing the right search phrases was tricky, because the stri
 ## How my working hours changed as I neared doomsday
 
 <p align="center">
-<img width="80%" alt="Word cloud of key worsd in my project log" src="https://github.com/jennynz/p4p-procrastination/blob/master/plots/commit-times.png"/>
+<img width="80%" alt="Word cloud of key worsd in my project log" src="https://github.com/jennynz/p4p-procrastination/blob/master/plots/commit-times-small-annotated.png"/>
 </p>
 
-This is basically Github's punchcard, only it unravels the commits over dates as well.
+This is basically Github's punchcard, only it unravels the commits over dates as well. I embellished it a little to better illustrate.
 
 ## Word cloud
 
